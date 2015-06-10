@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ubiquisense - Rxtx linux x86
+Bundle-Vendor: ubiquisense.com
+Bundle-SymbolicName: org.rxtx.linux.x86
+Bundle-Version: 2.1.72.qualifier
+Fragment-Host: org.rxtx
+Bundle-RequiredExecutionEnvironment: J2SE-1.2
+Bundle-ClassPath: lib/,
+ .
+Eclipse-PlatformFilter: (& (osgi.os=linux) (|(osgi.arch=x86)))
+Bundle-NativeCode: lib/librxtxParallel.so,\ 
+                   lib/librxtxSerial.so
+

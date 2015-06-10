@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.rxtx_2.1.72.qualifier.jar" id="org.rxtx" version="2.1.72.qualifier" os="linux,macosx,win32" ws="carbon,gtk,win32" arch="ia64,ppc,sparc,x86,x86_64"/>
+</site>

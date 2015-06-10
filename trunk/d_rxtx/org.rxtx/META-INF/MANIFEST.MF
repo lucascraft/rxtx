@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ubiquisense - RxTx JavaComm
+Bundle-Vendor: ubiquisense.com
+Bundle-SymbolicName: org.rxtx;singleton:=true
+Bundle-Version: 2.1.72.qualifier
+Require-Bundle: org.eclipse.core.runtime
+Export-Package: gnu.io,
+ org.rxtx
+Bundle-ClassPath: lib/RXTXcomm.jar
+Bundle-Activator: org.rxtx.Activator

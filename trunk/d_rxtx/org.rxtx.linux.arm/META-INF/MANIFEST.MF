@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ubiquisense - RxTx Linux arm
+Bundle-SymbolicName: org.rxtx.linux.arm;singleton:=true
+Bundle-Version: 2.1.72.qualifier
+Fragment-Host: org.rxtx;bundle-version="2.1.72"
+Bundle-RequiredExecutionEnvironment: J2SE-1.2
+Eclipse-PlatformFilter: (& (osgi.os=linux) (|(osgi.arch=arm)))
+Bundle-ClassPath: lib/,
+ .
+Bundle-NativeCode: lib/librxtxSerial.so
+ .

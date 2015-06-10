@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ubiquisense - Rxtx macosx x86_64
+Bundle-Vendor: ubiquisense.com
+Bundle-SymbolicName: org.rxtx.macosx.x86_64; singleton:=true
+Fragment-Host: org.rxtx;bundle-version="2.1.72"
+Bundle-Version: 2.1.72.qualifier
+Eclipse-PlatformFilter: (& (osgi.os=macosx) (osgi.arch=x86_64))
+Bundle-ClassPath: lib/,
+ .
+Bundle-NativeCode: lib/librxtxSerial.jnilib

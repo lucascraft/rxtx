@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ubiquisense - Rxtx solaris8 sparc32
+Bundle-Vendor: ubiquisense.com
+Bundle-SymbolicName: org.rxtx.solaris28.sparc
+Bundle-Version: 2.1.72.qualifier
+Fragment-Host: org.rxtx;bundle-version="0.5.0"
+Bundle-RequiredExecutionEnvironment: J2SE-1.2
+Bundle-ClassPath: lib/,
+ .
+Eclipse-PlatformFilter: (& (osgi.os=solaris) (|(osgi.arch=sparc)))
+Bundle-NativeCode: lib/librxtxSerial.so,\ 
+                   lib/librxtxSerial-2.1-7.so
+
